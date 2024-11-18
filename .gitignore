@@ -1,8 +1,23 @@
 # Node.js
 node_modules/
+.env
 
 # Rust
 target/
+**/*.rs.bk
 
-# 환경 변수
-.env
+# Docker
+docker-compose.override.yml
+*.log
+tmp/
+.docker/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
